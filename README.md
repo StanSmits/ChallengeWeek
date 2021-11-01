@@ -12,3 +12,6 @@ https://gist.github.com/Geoyi/d9fab4f609e9f75941946be45000632b
 
 #### Video widget PyQT5 docs:
 https://pythonprogramminglanguage.com/pyqt5-video-widget/
+
+#### Firebase Docs
+https://firebase.google.com/docs/firestore/quickstart?authuser=0#python
