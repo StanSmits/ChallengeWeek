@@ -1,12 +1,11 @@
 from os import read
 
-from pandas.io.parsers import read_csv
 from database import Database
-from import_file import Files
+from file import Files
 import pyrebase
 
 db = Database()
-file = Files()
+file_i = Files()
 
 csv = 'Vragen.csv'
 
@@ -22,6 +21,9 @@ firebase_config = {
 
 db.connection_database(firebase_config)
 
-file_array = file.csv_to_array(csv)
+file_array = file_i.csv_to_array(csv)
 
-print(file.get_vragen(file_array))
+# print(file_i.get_vragen(file_array))
+
+print(db.push_csv_to_db(file_array))
+
