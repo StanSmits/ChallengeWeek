@@ -1,6 +1,6 @@
 from os import read
 
-import csv
+from pandas.io.parsers import read_csv
 from database import Database
 from import_file import Files
 import pyrebase
