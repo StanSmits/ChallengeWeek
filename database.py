@@ -8,19 +8,6 @@ class Database(object):
       firebase = pyrebase.initialize_app(self.config)
       self.db = firebase.database()
 
-  def push_dict_to_db(self, dict):
+  def push_info_to_db(self, file):
     self.db.generate_key("Sorteerhoed")
-    # for i in dict:
-    #for k in dict[i]:
-    #print(dict[i][k])
       # self.db.push(dict)
-
-
-
-
-
-#   def push():
-# for i in data:
-#     for k in data[i]:
-#         print(data[i][k])
-

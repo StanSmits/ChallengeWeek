@@ -1,4 +1,5 @@
 import pandas as pd
+import csv
 from pandas.io.parsers import read_csv
 
 class Files(object):
@@ -7,12 +8,16 @@ class Files(object):
         read_csv = pd.read_csv(csv_file)
         return read_csv
 
-    def csv_to_dict(self, csv_file):
-        dict_file = pd.DataFrame.to_json(csv_file)
-        return dict_file
+    def csv_to_array(self, csv_file):
+        with open(csv_file, newline='') as f:
+            reader = csv.reader(f)
+            return list(reader)
 
-    def sort_vragen(self, dict):
-        self.dict = dict
-        # for i in self.dict:
-        #    print(i)
-
+    def get_vragen(self, array):
+        self.array = array
+        return_array = []
+        for i in self.array:
+            return_array.append(i[0])
+        return return_array
+            
+    
