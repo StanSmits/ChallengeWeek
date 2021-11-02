@@ -1,18 +1,26 @@
 import pyrebase
+from pyrebase.pyrebase import Firebase, initialize_app
+
+class Database(object):
+
+  def connection_database(self, config):
+      self.config = config
+      firebase = pyrebase.initialize_app(self.config)
+      self.db = firebase.database()
+
+  def push_dict_to_db(self, dict):
+    self.db.generate_key("Sorteerhoed")
+    # for i in dict:
+    #for k in dict[i]:
+    #print(dict[i][k])
+      # self.db.push(dict)
 
 
-firebaseConfig = {
-  "apiKey": "AIzaSyDOgtw11XJT7X3Kv4JJG96pVL0d_F7tYws",
-  "authDomain": "challengeweek-6a91e.firebaseapp.com",
-  "databaseURL": "https://challengeweek-6a91e-default-rtdb.europe-west1.firebasedatabase.app",
-  "projectId": "challengeweek-6a91e",
-  "storageBucket": "challengeweek-6a91e.appspot.com",
-  "messagingSenderId": "1012250981140",
-  "appId": "1:1012250981140:web:8f4fc6f9419ec9acdec801"
-}
 
-firebase = pyrebase.initialize_app(firebaseConfig)
-db = firebase.database()
-data = {"vragen": 'hallo?'}
 
-db.push(data)
+
+#   def push():
+# for i in data:
+#     for k in data[i]:
+#         print(data[i][k])
+
