@@ -24,8 +24,4 @@ db.connection_database(firebase_config)
 
 file_array = file.csv_to_array(csv)
 
-# print(file_array)
-
-# print(file.sortFiles(file_array))
-
 print(file.get_vragen(file_array))
