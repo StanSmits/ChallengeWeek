@@ -32,5 +32,11 @@ class Files(object):
             return_array.append(i[5])
         return return_array
 
+    def get_weging(self, array):
+        self.array = array
+        return_array = []
+        for i in self.array:
+            return_array.append(i[6])
+        return return_array
 
     
