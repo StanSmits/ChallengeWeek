@@ -6,5 +6,3 @@ def main():
     print(antw.opvraag_antwoorden())
 
 main()
-
-#Hoi 
