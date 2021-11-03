@@ -28,4 +28,5 @@ file_array = file_i.csv_to_array(csv)
 print(db.push_csv_to_db(file_array))
 
 #hoi
+#wat doe je
 
