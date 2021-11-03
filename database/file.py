@@ -16,27 +16,13 @@ class Files(object):
         return return_array
             
             
-    def get_antwoord(self, array, nummer_antwoord):
-        self.array = array
-        self.nummer_antwoord = nummer_antwoord
-        return_array = []
-        for i in self.array:
-            return_array.append(i[nummer_antwoord])
-        return return_array
-    
+    def get_antwoord(self, vraag_nummer):
+        return self.array[vraag_nummer][1].split(";")
+        
     
     def get_specialiteit(self, array):
         self.array = array
         return_array = []
         for i in self.array:
-            return_array.append(i[5])
+            return_array.append(i[2])
         return return_array
-
-    def get_weging(self, array):
-        self.array = array
-        return_array = []
-        for i in self.array:
-            return_array.append(i[6])
-        return return_array
-
-    
