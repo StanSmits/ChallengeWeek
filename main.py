@@ -1,14 +1,13 @@
 from os import read
 
-from pandas.io.parsers import read_csv
 from database import Database
-from import_file import Files
+from file import Files
 import pyrebase
 
 db = Database()
-file = Files()
+file_i = Files()
 
-csv = 'Vragen2.csv'
+csv = 'Vragen.csv'
 
 firebase_config = {
     "apiKey": "AIzaSyDOgtw11XJT7X3Kv4JJG96pVL0d_F7tYws",
@@ -22,27 +21,9 @@ firebase_config = {
 
 db.connection_database(firebase_config)
 
-readCsv = file.read_csv(csv)
+file_array = file_i.csv_to_array(csv)
 
-dict = file.csv_to_dict(readCsv)
-teller = 0
-print(dict)
+# print(file_i.get_vragen(file_array))
 
-
-# print(readCsv)
-# print("-----------------------------")
-# print(dict)
-
-
-# print(file.sort_vragen(dict))
-
-
-
-
-
-# print(type(data))
-
-# for i in data:
-#     for k in i:
-#         print(k)  # Hier print hij alle vragen   
+print(db.push_csv_to_db(file_array))
 
