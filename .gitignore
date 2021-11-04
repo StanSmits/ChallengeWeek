@@ -1,3 +1,9 @@
 #PyCharm
 .idea/
+#xCode
 *.code-workspace
+#VSCode
+*.vscode
+.DS_Store
+*.code-workspace
+database/db_config.env
