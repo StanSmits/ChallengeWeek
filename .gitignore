@@ -1,3 +1,4 @@
 #PyCharm
 .idea/
 *.code-workspace
+database/firebase.env
