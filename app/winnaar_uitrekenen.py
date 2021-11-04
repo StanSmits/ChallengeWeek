@@ -1,4 +1,4 @@
-data = {"SE": [1, 2, 3, 4, 5, 6], "FICT": [1,2,3,4,5], "IAT": [1,2,3,4], "BDAM": [1,2,3]}
+#data = {"SE": [1, 2, 3, 4, 5, 6], "FICT": [1,2,3,4,5], "IAT": [1,2,3,4], "BDAM": [1,2,3]}
 
 class Winnaar(object):
     # Create a fuction that loops through "data" for each key it will add up all the numbers in the value, then return the key with the highest value
@@ -23,7 +23,3 @@ class Winnaar(object):
         else:
             text = "Het ziet er naar uit dat", self.studiewinnaar, "het best bij jou past!"
             print(" ".join(text))
-
-Winaar = Winnaar()
-
-Winnaar.winnaar_uitrekenen(Winaar,data)
