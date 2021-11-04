@@ -22,7 +22,7 @@ class Winnaar(object):
             print("You committed the funny")
         else:
             text = "Het ziet er naar uit dat", self.studiewinnaar, "het best bij jou past!"
-            print(str(text))
+            print(" ".join(text))
 
 Winaar = Winnaar()
 
