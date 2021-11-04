@@ -2,3 +2,4 @@
 .idea/
 *.code-workspace
 database/firebase.env
+.DS_Store
