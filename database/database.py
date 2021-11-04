@@ -46,7 +46,7 @@ class Database(object):
     data = self.db.child(vraag_nummer).get()
     return data.val().get("richting")
   
-  def get_richting(self, vraag_nummer):
+  def get_afweging(self, vraag_nummer):
     data = self.db.child(vraag_nummer).get()
     return data.val().get("afweging")
   
