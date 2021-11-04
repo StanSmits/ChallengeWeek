@@ -1,4 +1,9 @@
 #PyCharm
 .idea/
+#xCode
 *.code-workspace
-database/firebase.env
+#VSCode
+*.vscode
+.DS_Store
+*.code-workspace
+database/db_config.env
