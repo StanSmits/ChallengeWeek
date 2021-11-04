@@ -22,7 +22,8 @@ class Database(object):
       data_vraag = {
         "vraag": vragen[vraag_nummer],
         "antwoorden": files.get_antwoord(vraag_nummer),
-        "richting": files.get_specialiteit(array)
+        "richting": files.get_specialiteit(array),
+        "afweging": files.get_afweging(vraag_nummer)
       }
       data.append(data_vraag)
 
