@@ -7,3 +7,4 @@
 .DS_Store
 *.code-workspace
 database/db_config.env
+database/firebase.env
