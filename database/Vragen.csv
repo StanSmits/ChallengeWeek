@@ -1,2 +1,15 @@
-Ik vind het leuk om nieuwe dingen te ontwikkelen?,"Helemaal mee eens;Mee eens;Niet mee eens;Helemaal niet eens",SE
-Het onderwerp statistieken interesseert mij?,"Helemaal mee eens;Mee eens;Niet mee eens;Helemaal niet eens",SE
+Het leukst van ict is programmeren,"Helemaal mee eens;Mee eens;Neutraal;Niet mee eens;Helemaal niet mee eens",SE,"70;30;50;25;35;15;15;10;0;0"
+Ik werk het liefst samen,"Met de Overheid en Politie;In een team met grote bedrijven;Met gebruikers en hardware bedrijven",FICT, "100;50;50;100"
+Bij het ontwikkelen van software houd ik mij het liefst bezig met,"De gebruikerservaring;De beveiliging en privacy;Het werken met data;Het schrijven van goede code",IAT,"100;100;100"
+In een project doe ik het liefst,"Designen;Coderen;Databases analyseren;bestanden encrypten,IAT,"80;20;80;20;100;100"
+ik zou het liefst:,"leermiddelen maken voor een school;een bijdrage leveren aan de toekomst;elke opdracht gevarieerd werk hebben;overzichtelijkheid en structuur creëren",IAT,"80;20;100;40;40;20"
+Ik zou willen helpen bij het oplossen van misdrijven,"Helemaal mee eens;Mee eens;Neutraal;Niet mee eens;Weet ik niet",FICT,"70;30;50;25;30;20;15;10;0;0"
+Ik vind het leuk om complexe puzzels op te lossen,"Helemaal mee eens;Mee eens;Neutraal;Niet mee eens",SE,"50;50;40;30;25;25;0;0"
+Ik stel het liefst zelf een project op,"Helemaal mee eens;Mee eens;Neutraal;Niet mee eens", SE, "100;75;50;0"
+Binnen een bedrijf ben ik liever:,"aan opdrachten aan het puzzelen;aan het werk met een duidelijk doel voor ogen;dingen aan het ontwikkelen voor de toekomst;bezig met één taak die ik voor hun voltooi",SE,"40;40;20;30;15;35;20;30;15;15;40;25;35;30;10"
+Ik vind hardware:,"Helemaal niks;even leuk als software;Leuker dan software"BDAM,"70;30;50;50;70;30"
+Stel, u werkt voor een IT bedrijf dat werkt met cybersecurity. Zou u liever voor dit bedrijf:,"misdrijven in ict oplossen;Complexe programma´s versimpelen voor de gebruikers;Ontwikkelen;databeheer",FICT,"100;65;15;20;50;10;15;25;10;20;70"
+Je mag de nieuwe HSLeiden app testen. Waar let je op?:,"De encryptie;De gebruikservaring;De visualisatie van je resultaten;Codeoptimaliseren",FICT,"100;60;40;100;100"
+Wat vind u belangrijker?:,"Toegankelijkheid;Veiligheid;Overzichtelijkheid",BDAM,"60;40;70;30;70;30"
+Je bekijk vacatures in de IT. In welk team wil je werken?,"Frond-end web development;Back-end web development;Data analist,Cyber defense",IAT,"100;100;100;100"
+Je mag een app bouwen rond een grote dataset. Waar wil je aan werken?,"Visualisatie van de dataset;Encryptie, beveiliging en privacyaspecten;Algemene ontwikkeling van de app",BDAM,"100;100;50;50"

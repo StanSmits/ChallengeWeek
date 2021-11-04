@@ -1,5 +1,14 @@
 #PyCharm
 .idea/
+#xCode
 *.code-workspace
+<<<<<<< HEAD
 database/firebase.env
 .DS_Store
+=======
+#VSCode
+*.vscode
+.DS_Store
+*.code-workspace
+database/db_config.env
+>>>>>>> d30582090b1f3f33ebc0c86348482ae4e97c3c54
